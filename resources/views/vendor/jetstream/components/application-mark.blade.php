@@ -1,0 +1,1 @@
+<img src="http://localhost/cloud_store/resources/img/Logo.png" alt="Logo" style="width:6rem; margin-top:.5rem;">

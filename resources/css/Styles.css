@@ -1,0 +1,157 @@
+@import url('https://fonts.cdnfonts.com/css/nunito');
+
+
+/*ESTILOS GENERALES*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    transition: all 300ms;
+}
+
+:root{
+    --violet: #686a9c;
+    --dark-violet: #272a76;
+    --light-violet: #c8cafa; 
+    --white: #fff;
+    --black: #000;
+    --gray: #dbdbdb;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.section{
+    width: 100%;
+    min-height: 50rem;
+}
+
+.center{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+/*HEADER*/
+#header{
+    height: 8rem;
+    background: var(--gray);
+}
+
+#header .center{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header .center img{
+    width: 8rem;
+}
+
+#header .center nav{
+    width: 60%;
+    height: 100%;
+}
+
+#header .center nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header .center nav ul li{
+    list-style: none;
+}
+
+#header .center nav ul li a{ 
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+#header .center nav ul li a,
+.fa-user{ 
+    color: var(--violet);
+}
+
+#header .center nav ul li a:hover,
+.fa-user:hover{ 
+    color: var(--dark-violet);
+}
+
+.fa-user{
+    cursor: pointer;
+    font-size: 3rem;
+}
+
+
+
+
+
+/*BANNER*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  width: 100%;
+  min-height: 55rem;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex !important; 
+  align-items: center !important;
+  justify-content: space-evenly !important;
+}
+
+.swiper-slide img {
+  display: block;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+.swiper-slide .img-lg {
+    display: block;
+    width: 35%;
+    height: auto;
+    object-fit: cover;
+}
+
+.swiper-slide h2{
+    font-size: 5.5rem;
+}
+
+.swiper-slide a{
+    width: 80%;
+    display: block;
+    text-decoration: none;
+    margin: 2rem auto;
+    font-size: 2.5rem;
+    padding: 1rem;
+    color: var(--white);
+    background: var(--dark-violet);
+    border-radius: 1.5rem;
+}
+
+.swiper-slide a:hover{
+    background: var(--violet);
+    color: var(--dark-violet);
+    box-shadow: 0 0 1rem var(--dark-violet);
+}
