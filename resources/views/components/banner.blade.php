@@ -8,7 +8,7 @@
           </div>
         </div>
         <div class="swiper-slide">
-          <img src="http://localhost/cloud_store/resources/img/Auriculares.png" alt="">
+          <img src="http://localhost/cloud_store/resources/img/Sillagamer.png" alt="">
           <div>
             <h2>Accesorios</h2>
             <a href="">Ver más</a>

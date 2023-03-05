@@ -22,10 +22,33 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     </head>
     <body>
+       <x-header-top/>
        <x-header/>
        <x-banner/>
 
+       <div id="services">
+            <div class="center">
+                <div class="service_card">
+                    <img src="http://localhost/cloud_store/resources/img/Truck.png">
+                    <h3>Envíos rápidos</h3>
+                    <p>Donec efficitur vestibulum est at tristique. Pellentesque a diam augue.</p>
+                </div>
 
+                <div class="service_card">
+                    <img src="http://localhost/cloud_store/resources/img/Exchange.png">
+                    <h3>10 días para cambiar</h3>
+                    <p>Donec efficitur vestibulum est at tristique. Pellentesque a diam augue.</p>
+                </div>
+
+                <div class="service_card">
+                    <img src="http://localhost/cloud_store/resources/img/Support.png">
+                    <h3>Soporte 24/7</h3>
+                    <p>Donec efficitur vestibulum est at tristique. Pellentesque a diam augue.</p>
+                </div>
+            </div>
+       </div>
+
+        <x-latest/>
 
        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     </body>
