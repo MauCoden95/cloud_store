@@ -9,7 +9,7 @@
             <h2>{{ $latest->price }} <span>$</span></h2>
             <a href="#"><i class="fas fa-shopping-cart"></i> Añadir al carrito</a>
         </div>
-    @endforeach
+        @endforeach
     </div>
     
     
